@@ -1,5 +1,5 @@
 body{
-    background-image: url('../images/sol.jpg');
+    background: url('../images/sol.jpg') no-repeat center center fixed;
    /*faz a imagem caber na tela*/
     background-size: cover;
     -webkit-background-size:cover;
