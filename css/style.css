@@ -7,6 +7,11 @@ body{
     -o-background-size:cover;
     text-align: center;
     color: white;
+    height: 100%;
+}
+
+html{
+    height: 100%;
 }
 
 .text{
@@ -33,7 +38,7 @@ body{
 }
 
 .space{
-    margin-right: 1px;
+    margin-right: 10px;
 }
 
 .btn{
@@ -54,4 +59,8 @@ body{
     background-color: #d4745ade;
     border-color: #d4745ade
     text-decoration: none;
+}
+
+.padding-right{
+    padding-right: 5px; 
 }
