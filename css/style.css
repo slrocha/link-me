@@ -1,0 +1,57 @@
+body{
+    background-image: url('../images/sol.jpg');
+   /*faz a imagem caber na tela*/
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    text-align: center;
+    color: white;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #f15025de;
+    font-size: 25px;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 35%;
+    border: 5px solid #d4745ade;
+    /*transform: rotate(-49deg);*/
+}
+
+.space{
+    margin-right: 1px;
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: orangered;
+    border-color: orangered;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #d4745ade;
+    border-color: #d4745ade
+    text-decoration: none;
+}
